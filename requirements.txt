@@ -1,0 +1,6 @@
+fastapi==0.95.0
+uvicorn==0.18.3
+streamlit==1.19.0
+yfinance==0.2.4
+prophet==1.1.6
+altair==4.2.2
