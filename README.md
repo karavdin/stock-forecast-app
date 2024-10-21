@@ -4,4 +4,5 @@ Our main focus will be on MLE side of the things: we won’t discuss the modelin
 We will utilize Docker, FastAPI, Streamlit and, of course, Azure. 
 
 Here is how the output is looking like: interactive Streamlit dashboard on Azure
-<img width="1547" alt="Screenshot 2024-10-21 at 20 14 35" src="https://github.com/user-attachments/assets/2ebcb469-8a95-434b-b22c-a4fddd159366">
+<img width="1057" alt="Screenshot 2024-10-21 at 21 21 09" src="https://github.com/user-attachments/assets/6769aec1-7971-4de9-af3e-187c1b245639">
+
