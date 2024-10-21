@@ -1,0 +1,4 @@
+fastapi==0.95.0
+uvicorn==0.18.3
+yfinance==0.2.4
+prophet==1.1.6
