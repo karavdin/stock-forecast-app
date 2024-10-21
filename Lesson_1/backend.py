@@ -45,3 +45,7 @@ def forecast_sales(request: ForecastRequest):
         "historical": df.to_dict(orient='records'),
         "forecast": forecast.to_dict(orient='records')
     }
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run("backend:app", host="0.0.0.0", port=8000, reload=True)
