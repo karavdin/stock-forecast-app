@@ -25,4 +25,4 @@ COPY backend.py .
 EXPOSE 8000
 
 # Command to run FastAPI
-CMD ["uvicorn", "backend:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
+CMD ["uvicorn", "backend:app", "--host", "0.0.0.0", "--port", "8000"]

@@ -14,7 +14,8 @@ forecast_days = st.slider("Select Days for Forecast", min_value=1, max_value=365
 # Fetch data and forecast
 if st.button("Get Forecast"):
     # API Call to FastAPI Backend
-    response = requests.post("http://fastapi:8000/forecast", json={"ticker": ticker, "periods": forecast_days})
+    response = requests.post("https://stock-forecast-fastapi.azurewebsites.net/forecast", 
+                             json={"ticker": ticker, "periods": forecast_days})
 
     if response.status_code == 200:
         data = response.json()
